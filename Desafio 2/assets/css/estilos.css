@@ -1,0 +1,51 @@
+/*con el atributo font se puede dar el estilo al texto*/
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
+}
+
+/*la clase header sera el apartado inicial de la pagina*/
+.header{
+    height: 5em;
+    padding: 5em;
+    font-size: 1em;
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    }
+
+/*es la clase donde se mostraran los productos*/
+.productos{
+    height: 95em;
+    padding: 1em;
+    color: black;
+    width: 80%;
+    margin: 0;   
+    text-align: center;
+}
+
+
+/* la clase td es para modificar la tabla y la clase img es para ver el tamaño de la imagen*/
+.productos td{
+    width: 50%;
+    padding: 2em;
+}
+
+.productos img{
+    width: 83%;
+    border: solid 1px #ddd;
+}
+
+
+   /*es donde se vera el pie de pagina*/
+.footer    {
+    height: 2em;
+    line-height: 2em;
+    background-color: rgb(0, 18, 79);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+ 
+           
